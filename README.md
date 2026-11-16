@@ -19,10 +19,10 @@ RazerMonWidget builds on that work with IOKit battery publishing adapted from at
 Download a precompiled binary from GitHub Releases and install the service:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/xiehuc/RazerMonWidget/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/xiehuc/RazerMonWidget/master/install.sh | bash
 
 # Install a specific release
-curl -fsSL https://raw.githubusercontent.com/xiehuc/RazerMonWidget/main/install.sh | bash -s -- --version v1.0.0
+curl -fsSL https://raw.githubusercontent.com/xiehuc/RazerMonWidget/master/install.sh | bash -s -- --version v1.0.0
 ```
 
 The default repository is `xiehuc/RazerMonWidget`. For a fork, pass `--repo OWNER/REPO` or set `RAZERMONWIDGET_REPO`. Ensure the repository address matches your published project. The installer verifies the SHA-256 checksum and executable signature before installing the service.

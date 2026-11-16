@@ -15,10 +15,10 @@ RazerMonWidget 在这些核心逻辑之上，使用 atkctl 的 IOKit 电源发�
 从 GitHub Release 下载预编译产物并安装：
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/xiehuc/RazerMonWidget/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/xiehuc/RazerMonWidget/master/install.sh | bash
 
 # 指定版本
-curl -fsSL https://raw.githubusercontent.com/xiehuc/RazerMonWidget/main/install.sh | bash -s -- --version v1.0.0
+curl -fsSL https://raw.githubusercontent.com/xiehuc/RazerMonWidget/master/install.sh | bash -s -- --version v1.0.0
 ```
 
 默认仓库为 `xiehuc/RazerMonWidget`；fork 可以传 `--repo OWNER/REPO` 或设置 `RAZERMONWIDGET_REPO`。发布前需确保该仓库与实际 GitHub 地址一致。安装器验证 SHA-256 和可执行文件签名后，再调用程序安装服务。

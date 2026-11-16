@@ -1,5 +1,5 @@
 #!/bin/bash
-# Supports: curl -fsSL https://raw.githubusercontent.com/xiehuc/RazerMonWidget/main/install.sh | bash
+# Supports: curl -fsSL https://raw.githubusercontent.com/xiehuc/RazerMonWidget/master/install.sh | bash
 set -euo pipefail
 
 repo="${RAZERMONWIDGET_REPO:-xiehuc/RazerMonWidget}"
